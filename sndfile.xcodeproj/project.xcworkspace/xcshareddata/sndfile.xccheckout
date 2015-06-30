@@ -10,6 +10,8 @@
 	<string>sndfile</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>1F6792012224BA2F1B8F6EEFC06D13A8550AB940</key>
+		<string>github.com:G-P-S/libsndfile-exports.git</string>
 		<key>DBC156E3356CF428984B978CAF7A8D0AE7614EB0</key>
 		<string>github.com:G-P-S/libsndfile.git</string>
 	</dict>
@@ -17,6 +19,8 @@
 	<string>sndfile.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>1F6792012224BA2F1B8F6EEFC06D13A8550AB940</key>
+		<string>../..-exports/</string>
 		<key>DBC156E3356CF428984B978CAF7A8D0AE7614EB0</key>
 		<string>../..</string>
 	</dict>
@@ -35,6 +39,14 @@
 			<string>DBC156E3356CF428984B978CAF7A8D0AE7614EB0</string>
 			<key>IDESourceControlWCCName</key>
 			<string>libsndfile</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1F6792012224BA2F1B8F6EEFC06D13A8550AB940</string>
+			<key>IDESourceControlWCCName</key>
+			<string>libsndfile-exports</string>
 		</dict>
 	</array>
 </dict>
