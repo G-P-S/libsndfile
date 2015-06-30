@@ -68,7 +68,7 @@
 	#elif (OSX_DARWIN_VERSION == 11)
 		#include <AudioToolbox/AudioToolbox.h>
 	#elif (OSX_DARWIN_VERSION > 0 && OSX_DARWIN_VERSION <= 10)
-		#include <Carbon.h>
+		//#include <Carbon.h>
 		#include <CoreAudio/AudioHardware.h>
 	#endif
 

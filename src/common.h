@@ -838,7 +838,7 @@ int psf_ferror (SF_PRIVATE *psf) ;
 */
 
 int		aiff_open	(SF_PRIVATE *psf) ;
-int		au_open		(SF_PRIVATE *psf) ;
+int		aud_open		(SF_PRIVATE *psf) ;
 int		avr_open	(SF_PRIVATE *psf) ;
 int		htk_open	(SF_PRIVATE *psf) ;
 int		ircam_open	(SF_PRIVATE *psf) ;

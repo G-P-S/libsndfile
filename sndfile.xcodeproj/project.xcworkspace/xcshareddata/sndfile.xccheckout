@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FC40BB62-6A8C-4D7E-9FC1-E5F27E6D5C6C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>sndfile</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DBC156E3356CF428984B978CAF7A8D0AE7614EB0</key>
+		<string>github.com:G-P-S/libsndfile.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>sndfile.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DBC156E3356CF428984B978CAF7A8D0AE7614EB0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:G-P-S/libsndfile.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DBC156E3356CF428984B978CAF7A8D0AE7614EB0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DBC156E3356CF428984B978CAF7A8D0AE7614EB0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>libsndfile</string>
+		</dict>
+	</array>
+</dict>
+</plist>

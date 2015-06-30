@@ -90,7 +90,7 @@ typedef	struct
 ** Private static functions.
 */
 
-static	int		au_close		(SF_PRIVATE *psf) ;
+static	int		aud_close		(SF_PRIVATE *psf) ;
 
 static	int 	au_format_to_encoding	(int format) ;
 
@@ -102,7 +102,7 @@ static int		au_read_header (SF_PRIVATE *psf) ;
 */
 
 int
-au_open	(SF_PRIVATE *psf)
+aud_open	(SF_PRIVATE *psf)
 {	int		subformat ;
 	int		error = 0 ;
 
@@ -129,7 +129,7 @@ au_open	(SF_PRIVATE *psf)
 		psf->write_header = au_write_header ;
 		} ;
 
-	psf->container_close = au_close ;
+	psf->container_close = aud_close ;
 
 	psf->blockwidth = psf->bytewidth * psf->sf.channels ;
 
@@ -187,13 +187,13 @@ au_open	(SF_PRIVATE *psf)
 */
 
 static int
-au_close	(SF_PRIVATE *psf)
+aud_close	(SF_PRIVATE *psf)
 {
 	if (psf->file.mode == SFM_WRITE || psf->file.mode == SFM_RDWR)
 		au_write_header (psf, SF_TRUE) ;
 
 	return 0 ;
-} /* au_close */
+} /* aud_close */
 
 static int
 au_write_header (SF_PRIVATE *psf, int calc_length)

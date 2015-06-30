@@ -24,7 +24,6 @@
 #include <stdint.h>
 #include <inttypes.h>
 
-
 #if COMPILER_IS_GCC && CPU_IS_X86
 
 static inline int16_t
